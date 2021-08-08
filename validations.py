@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 def validate_user(username,minlen):
-    """Checks if the recieved username matches the required condtions."""
+    """Checks if the received username matches the required condtions."""
     if type(username)!=str:
         raise TypeError("username must be a string")
     if minlen  < 1:
